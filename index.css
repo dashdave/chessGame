@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+.gameBoard {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows:repeat(8, 1fr) ;
+
+}
+img {
+    width:24px;
+    height: 24px;
+}
